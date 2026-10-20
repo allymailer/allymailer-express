@@ -1,0 +1,42 @@
+{
+  "name": "@allymailer/express",
+  "version": "1.0.0",
+  "description": "AllyMailer Web API for Express: API client, webhooks, Nodemailer transport",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@allymailer/allymailer-node-sdk": "^2.0.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.18"
+  },
+  "keywords": [
+    "allymailer",
+    "express",
+    "email",
+    "nodemailer",
+    "webhook"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allymailer/allymailer-express.git"
+  },
+  "homepage": "https://docs.allymailer.com.ua/ua/web-api-ref"
+}
